@@ -1,0 +1,3 @@
+# July 28
+# Issue with SqLite, seems to be related to Flask
+CVE-2025-6965
