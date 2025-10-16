@@ -14,7 +14,7 @@ Getting started[](#getting-started)
 
 -------------
 SSSOM data mappings have been added in the Resource Page.
-These resources provide SSSOM data mappings from openDS to three international standards:
-- [Darwin Core Archive](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_dwca.tsv)
-- [Access to Biological Collection Data (ABCD) + Extension for Geosciences (EFG)](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_abcdefg.tsv)
-- [Darwin Core Data Package](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/dwc_dp.tsv) 
+These resources provide SSSOM data mappings from openDS to three international standards:  
+- [Darwin Core Archive](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_dwca.tsv)  
+- [Access to Biological Collection Data (ABCD) + Extension for Geosciences (EFG)](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_abcdefg.tsv)  
+- [Darwin Core Data Package](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/dwc_dp.tsv)  
