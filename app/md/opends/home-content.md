@@ -13,6 +13,8 @@ Getting started[](#getting-started)
 *   For questions and change requests please create a [Github Issue](https://github.com/DiSSCo/openDS/issues/new/choose)
 
 -------------
-Version 0.4.0 is live and DiSSCo is moving to a first production version.  
-We are therefore moving from [dev.terms.dissco.tech](dev.terms.dissco.tech) to [terms.dissco.tech](terms.dissco.tech).  
-Please update your bookmarks and links.
+SSSOM data mappings have been added in the Resource Page.
+These resources provide SSSOM data mappings from openDS to three international standards:  
+- [Darwin Core Archive](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_dwca.tsv)  
+- [Access to Biological Collection Data (ABCD) + Extension for Geosciences (EFG)](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_abcdefg.tsv)  
+- [Darwin Core Data Package](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/dwc_dp.tsv)  
