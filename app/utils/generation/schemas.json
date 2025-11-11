@@ -98,10 +98,16 @@
     "csv_prefix": "digital-media",
     "objects": [
       {
-        "endpoint": "https://schemas.dissco.tech/schemas/fdo-type/digital-media/0.4.0/digital-media.json",
+        "endpoint": "https://schemas.dissco.tech/schemas/fdo-type/digital-media/0.5.0/digital-media.json",
         "class_name": "DigitalMedia",
         "class_description": "A digital representation of an media object such as a Image or Sound Recording",
         "is_required": true
+      },
+      {
+        "endpoint": "https://schemas.dissco.tech/schemas/fdo-type/digital-media/0.5.0/digital-media-derivative.json",
+        "class_name": "DigitalMediaDerivative",
+        "class_description": "A class capturing any derivatives made from the original media object.",
+        "is_required": false
       },
       {
         "endpoint": "https://schemas.dissco.tech/schemas/fdo-type/shared-model/0.4.0/agent.json",
@@ -304,7 +310,7 @@
       }
     ]
   },
-    {
+  {
     "csv_prefix": "virtual-collection",
     "objects": [
       {
