@@ -43,6 +43,8 @@ def determine_namespace_uri(namespace: str) -> str:
         return 'http://www.w3.org/2000/01/rdf-schema#'
     if namespace == 'ltc:':
         return 'http://rs.tdwg.org/ltc/terms/'
+    if namespace == 'exif':
+        return 'http://ns.adobe.com/exif/1.0/'
     else:
         return ''
 
@@ -214,7 +216,8 @@ def determine_type(term_value, term_key):
         "ods:predicateValues": "string|number|boolean",
         "ods:hasPredicates": "ods:Predicate",
         "ods:specimenMachineAnnotationServices": "string",
-        "ods:mediaMachineAnnotationServices": "string"
+        "ods:mediaMachineAnnotationServices": "string",
+        "ods:hasMediaDerivatives": "ods:MediaDerivative",
     }
     if term_type != 'array':
         return term_type

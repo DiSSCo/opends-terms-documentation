@@ -49,7 +49,32 @@ classDiagram
    ods:hasIdentifiers : array<ods:Identifier> 
    ods:hasEntityRelationships : array<ods:EntityRelationship> 
    ods:hasAgents : array<ods:Agent> 
+   ods:hasMediaDerivatives : array<ods:MediaDerivative> 
    ods:hasTombstoneMetadata : object 
+ }
+ class DigitalMediaDerivative { 
+   dcterms:modified : string 
+   dcterms:created : string 
+   dcterms:type : string 
+   ac:accessURI : string 
+   dcterms:format : string 
+   ac:subtype : string 
+   ac:subtypeLiteral : string 
+   dcterms:title : string 
+   dcterms:description : string 
+   dcterms:rights : string 
+   ac:comments : string 
+   ac:variant : string 
+   ac:variantLiteral : string 
+   ac:variantDescription : string 
+   exif:PixelYDimension : integer 
+   exif:PixelXDimension : integer 
+   ac:tag : array<string> 
+   ac:subjectOrientation : string 
+   ac:subjectOrientationLiteral : string 
+   ac:subjectPart : string 
+   ac:subjectPartLiteral : string 
+   ods:hasAgents : array<ods:Agent> 
  }
  class Agent { 
    schema:identifier : string 
@@ -123,7 +148,9 @@ classDiagram
    schema:identifier : string 
    ods:relationshipType : string 
  }
+DigitalMedia -- DigitalMediaDerivative
 DigitalMedia -- Agent
+DigitalMediaDerivative -- Agent
 Agent -- Role
 Assertion -- Agent
 Assertion -- Citation

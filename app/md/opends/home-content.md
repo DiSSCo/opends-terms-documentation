@@ -12,9 +12,19 @@ Getting started[](#getting-started)
 *   The [openDS Github](https://github.com/DiSSCo/openDS) provides any additional information available, including examples.
 *   For questions and change requests please create a [Github Issue](https://github.com/DiSSCo/openDS/issues/new/choose)
 
--------------
-SSSOM data mappings have been added in the Resource Page.
-These resources provide SSSOM data mappings from openDS to three international standards:  
+SSSOM data standard mappings can be in the Resource Page for three international standards:
 - [Darwin Core Archive](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_dwca.tsv)  
 - [Access to Biological Collection Data (ABCD) + Extension for Geosciences (EFG)](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/sssom_abcdefg.tsv)  
 - [Darwin Core Data Package](https://schemas.dissco.tech/schemas/data-mapping/0.4.0/dwc_dp.tsv)  
+
+For more information on the data model see the Living Data 2025 Presentation given at 22-10-2025.  
+[Living Data 2025 Presentation](https://drive.google.com/file/d/17HZCCLf8EMwTolmwkaLIBRJQieuOmTBq/view?usp=drive_link)
+
+-------------
+## Latest Updates
+
+Media has been updated to version 0.5.0 to include media derivatives.  
+These media derivatives are derived from the original item and will not get their own object.  
+Instead they will be nested in the media digital object.  
+First use case for the media derivatives will be the generation of thumbnail images.
+

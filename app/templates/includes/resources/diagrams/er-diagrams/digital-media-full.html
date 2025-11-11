@@ -1,5 +1,7 @@
 erDiagram
+    DigitalMedia ||--o{ DigitalMediaDerivative : Has
     DigitalMedia ||--o{ Agent : Has
+    DigitalMediaDerivative || --o{ Agent : Has
     Agent ||--|{ Role : Has
     Assertion ||--o{ Agent : Has
     Assertion ||--o{ Citation : Has
