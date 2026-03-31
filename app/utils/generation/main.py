@@ -162,7 +162,7 @@ def iterate_over_object(json_data, term_array, class_name):
                 'namespace': 'ods:',
                 'term_local_name': class_name,
                 'label': camel_case_to_title(class_name),
-                'definition': 'Descripes a predicate that can be used to filter the target Digital Objects this object applies to.',
+                'definition': 'Describes a predicate that can be used to filter the target Digital Objects this object applies to.',
                 'usage': '',
                 'notes': '',
                 'examples': '',
@@ -218,6 +218,7 @@ def determine_type(term_value, term_key):
         "ods:specimenMachineAnnotationServices": "string",
         "ods:mediaMachineAnnotationServices": "string",
         "ods:hasMediaDerivatives": "ods:MediaDerivative",
+        "ods:significanceForCountries": "string",
     }
     if term_type != 'array':
         return term_type

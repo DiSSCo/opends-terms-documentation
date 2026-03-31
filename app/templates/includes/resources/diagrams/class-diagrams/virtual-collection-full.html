@@ -12,6 +12,8 @@ classDiagram
    schema:contentURL : string 
    schema:creator : object 
    ods:hasTargetDigitalObjectFilter : object 
+   ods:significanceForCountries : array<string> 
+   ods:hasEntityRelationships : array<ods:EntityRelationship> 
    ods:hasTombstoneMetadata : object 
  }
  class TombstoneMetadata { 
@@ -52,6 +54,15 @@ classDiagram
    ods:predicateValue : ['string', 'number', 'boolean'] 
    ods:predicateValues : array<string|number|boolean> 
  }
+ class EntityRelationship { 
+   dwc:relationshipOfResource : string 
+   dwc:relationshipOfResourceID : string 
+   dwc:relatedResourceID : string 
+   ods:relatedResourceURI : string 
+   dwc:relationshipEstablishedDate : string 
+   dwc:relationshipRemarks : string 
+   ods:hasAgents : array<ods:Agent> 
+ }
 VirtualCollection -- TombstoneMetadata
 TombstoneMetadata -- RelatedPID
 VirtualCollection -- Agent
@@ -59,3 +70,5 @@ Agent -- Role
 Agent -- Identifier
 TombstoneMetadata -- Agent
 VirtualCollection -- Predicate
+VirtualCollection -- EntityRelationship
+EntityRelationship -- Agent
