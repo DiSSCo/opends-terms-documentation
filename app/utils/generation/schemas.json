@@ -336,6 +336,12 @@
         "class_name": "Identifier",
         "class_description": "A generic class indicating to which cross-section of the Digital Objects this object applies to.",
         "is_required": true
+      },
+      {
+        "endpoint": "https://schemas.dissco.tech/schemas/fdo-type/shared-model/0.4.0/entity-relationship.json",
+        "class_name": "EntityRelationship",
+        "class_description": "Describes relationships between digital object and any external resources. An example could be a relationship to the Sequence record of the specimen in a DNA database.",
+        "is_required": false
       }
     ]
   }

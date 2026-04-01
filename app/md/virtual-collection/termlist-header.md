@@ -4,16 +4,16 @@
 : Virtual Collection List of Terms
 
 **Date version issued**
-: 2025-06-06
+: 2026-03-31
 
 **Date created**
 : 2025-06-06
 
 **This version**
-: 0.1.0
+: 0.2.0
 
 **Latest version**
-: 0.1.0
+: 0.2.0
 
 **Abstract**
 : The Virtual Collection object provides information about a collection of digital objects that are grouped together for a specific purpose, such as research, education, or public engagement. 
